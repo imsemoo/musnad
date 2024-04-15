@@ -3500,3 +3500,87 @@ ul {
 .widget_nav_menu li:last-child:after {
   display: none;
 }
+
+.article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+.article img{
+  width: 100%;
+}
+.article-title {
+  color: #007bff;
+}
+
+.article-date {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.article-content {
+  margin-top: 20px;
+  text-align: justify;
+}.hero-section {
+  position: relative;
+  background: url('https://via.placeholder.com/1200x800?text=Hero+Image') no-repeat center center;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with opacity */
+}
+
+
+.header-bg {
+  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color: white;
+}
+
+.section-bg {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.section-bg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.section-title {
+  margin-bottom: 15px;
+  color: #004085;
+}
+
+.about-us img {
+  border-radius: 8px;
+}
+
+.about-us ul {
+  text-align: center;
+  padding: 0;
+}
+
+.about-us ul li {
+  padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .align-items-center {
+      align-items: center;
+  }
+}

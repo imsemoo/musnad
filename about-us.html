@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>مسند</title>
+    
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- header start -->
+    <div class="navbar-area">
+        <!-- topbar end-->
+        <div class="topbar-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-7 align-self-center">
+                        <div class="topbar-menu text-md-right text-center">
+                            <ul class="align-self-center">
+                                <li><a href="#">المؤلف</a></li>
+                                <li><a href="#">الإعلان</a></li>
+                                <li><a href="#">العضو</a></li>
+                                <li><a href="#">خريطة الموقع</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 mt-2 mt-md-0 text-md-left text-center">
+                        <div class="topbar-social">
+                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i> السبت, 7 أكتوبر</div>
+                            <ul class="social-area social-area-2">
+                                <li><a class="facebook-icon" href="https://www.facebook.com/musnadye"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter-icon" href="https://twitter.com/musnadye"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="youtube-icon" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a class="instagram-icon" href="https://www.instagram.com/musnadye/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="google-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- topbar end-->
+
+        <!-- adbar end-->
+        <div class="adbar-area bg-black d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-5 align-self-center">
+                        <div class="logo text-md-right text-center">
+                            <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img" width="200"></a>
+                        </div>
+                       
+                    </div>
+                    <div class="col-xl-6 col-lg-7 text-md-right text-center">
+                        
+                        <div class="title-logo d-flex align-content-center">
+                            
+                            <h4>بدعم من </h4>
+                            <a href="#" class="adbar-right">
+                                <img src="assets/img/logo2.png" alt="img" width="150">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- adbar end-->
+
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo d-lg-none d-block">
+                        <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                    </div>
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <a class="search header-search" href="#"><i class="fa fa-search"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="nextpage_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="current-menu-item">
+                            <a href="#banner">الرئيسية</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a href="#trending">التحقق من الأخبار الرائجة</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a href="#latest">آخر الأخبار المتحقق منها</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a href="#grid">شبكة الأخبار المتحقق منها</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a  href="#">واصل معنا</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">
+                    <div class="menu-search-inner">
+                        <input type="text" placeholder="ابحث عن">
+                        <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Hero Section -->
+<section class="hero-section text-white text-center">
+    <div class="overlay"></div>
+    <div class="container py-5">
+        <h1 class="display-3">مرحباً بكم في منصة مُسند</h1>
+        <p class="lead">منصتك الموثوقة للتحقق من الأخبار ومحاربة المعلومات المضللة.</p>
+        <a href="#about" class="btn btn-primary">تعرف على المزيد</a>
+    </div>
+</section>
+
+<!-- Introduction Video -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yourvideo"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container about-us mt-5">
+    <section class="mb-5 p-4 section-bg">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3">
+                <img src="https://via.placeholder.com/500x300?text=من+نحن" alt="من نحن" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-md-6 text-center">
+                <h2 class="section-title">من نحن؟</h2>
+                <p>تأسست منصة مُسند في عام 2021 بهدف تعزيز الشفافية ومكافحة الأخبار المضللة في العالم العربي. نعمل على التحقق من صحة المعلومات المنتشرة وتوفير محتوى موثوق به للجمهور.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5 p-4 section-bg">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 mb-3">
+                <img src="https://via.placeholder.com/500x300?text=رؤيتنا" alt="رؤيتنا" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-md-6 order-md-1 text-center">
+                <h2 class="section-title">رؤيتنا</h2>
+                <p>تسعى منصة مُسند إلى بناء مجتمع معلوماتي موثوق، حيث يمكن للأفراد التمييز بين الحقائق والشائعات بكل سهولة ويسر.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5 p-4 section-bg">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3">
+                <img src="https://via.placeholder.com/500x300?text=مهمتنا" alt="مهمتنا" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-md-6 text-center">
+                <h2 class="section-title">مهمتنا</h2>
+                <p>تقديم خدمات التحقق من الأخبار بموضوعية وعلمية لضمان حصول الجمهور على معلومات صحيحة ومفيدة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5 p-4 text-center section-bg">
+        <h2 class="section-title">تواصل معنا</h2>
+        <ul class="list-unstyled">
+            <li>العنوان: صنعاء، اليمن</li>
+            <li>الهاتف: +967 123 456 789</li>
+            <li>البريد الإلكتروني: info@musnad.com</li>
+        </ul>
+    </section>
+</div>
+
+
+    
+
+    <div class="footer-area bg-black pd-top-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget">
+                        <h5 class="widget-title">عنا</h5>
+                        <div class="widget_about">
+                            <p>منصة مُسند متخصصة في التحقق من صحة الأخبار ومكافحة المعلومات المضللة لتعزيز الوعي والمعرفة في العالم العربي.</p>
+                            <ul class="social-area social-area-2 mt-4">
+                                <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="youtube-icon" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a class="instagram-icon" href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="google-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget widget_tag_cloud">
+                        <h5 class="widget-title">الوسوم</h5>
+                        <div class="tagcloud">
+                            <a href="#">تحقق</a>
+                            <a href="#">أخبار</a>
+                            <a href="#">موثوقية</a>
+                            <a href="#">دقة</a>
+                            <a href="#">تعليم</a>
+                            <a href="#">معلومات</a>
+                            <a href="#">بحث</a>
+                            <a href="#">علوم</a>
+                            <a href="#">مجتمع</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget">
+                        <h5 class="widget-title">تواصل معنا</h5>
+                        <ul class="contact_info_list">
+                            <li><i class="fa fa-map-marker"></i> 123 شارع التحرير، القاهرة، مصر</li>
+                            <li><i class="fa fa-phone"></i> +20 123 456 7890</li>
+                            <li><i class="fa fa-envelope-o"></i> info@musnad.com <br> support@musnad.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget widget_recent_post">
+                        <h5 class="widget-title">الأخبار الشائعة</h5>
+                        <div class="single-post-list-wrap style-white">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="https://via.placeholder.com/100" alt="dummy image">
+                                </div>
+                                <div class="media-body">
+                                    <div class="details">
+                                        <div class="post-meta-single">
+                                            <ul>
+                                                <li><i class="fa fa-clock-o"></i>07.04.2024</li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="title"><a href="#">تقنيات جديدة لتحسين التحقق من الأخبار</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-post-list-wrap style-white">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="https://via.placeholder.com/100" alt="dummy image">
+                                </div>
+                                <div class="media-body">
+                                    <div class="details">
+                                        <div class="post-meta-single">
+                                            <ul>
+                                                <li><i class="fa fa-clock-o"></i>06.04.2024</li>
+                                            </ul>
+                                        </div>
+                                        <h6 class="title"><a href="#">التأثير الاجتماعي للأخبار المضللة وكيفية مواجهتها</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <ul class="widget_nav_menu">
+                    <li><a href="#">عن الموقع</a></li>
+                    <li><a href="#">الشروط والأحكام</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+                <p>حقوق النشر ©2024 <a href="#">مسند</a></p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
