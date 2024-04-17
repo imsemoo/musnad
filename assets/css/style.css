@@ -4015,3 +4015,20 @@ ul {
 .fa {
   font-style: normal; /* Font Awesome would be used here */
 }
+
+.slider-en-mobile
+.uncode_text_column{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  color: #fff;
+  cursor: pointer;
+
+
+}
+.slider-en-mobile >.row-parent{
+  padding: 0;
+
+}
