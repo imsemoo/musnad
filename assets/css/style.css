@@ -4103,3 +4103,50 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: center; /* Center the pagination */
+  padding: 20px 0; /* Spacing around the pagination */
+}
+.pagination .page-item .page-link{
+  height: 40px;
+  width: max-content;
+  padding: 10px;
+  color: var(--heading-color);
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  font-size: 15px;
+}
+
+.pagination .page-item.active .page-link,
+.pagination .page-link {
+  background-color: #007bff; /* Primary color for active link */
+  color: white; /* Text color for all links */
+  border: 1px solid #007bff; /* Border to match background */
+  padding: 8px 16px; /* Padding for a larger click area */
+  margin-left: 4px; /* Spacing between links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.pagination .page-link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  color: white; /* Text color on hover */
+  text-decoration: none; /* No underline */
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #cccccc; /* Light grey for disabled links */
+  pointer-events: none; /* Disable link interaction */
+}
+
+/* Hide arrows on disabled 'Previous' and 'Next' */
+.pagination .page-item.disabled .page-link {
+  opacity: 0.5; /* Slightly transparent */
+}
