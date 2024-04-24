@@ -876,6 +876,10 @@ ul {
 .social-area {
   padding: 0;
   margin: 0;
+  display: flex;
+  grid-gap: 5px;
+  flex-wrap: wrap;
+
 }
 .social-area li {
   list-style: none;
@@ -896,7 +900,7 @@ ul {
 }
 
 .social-area-2 li {
-  margin: 0 6px;
+  margin: 0 ;
 }
 .social-area-2 li a {
   color: #ffffff;
@@ -1648,6 +1652,20 @@ ul {
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-collapse .dropdown .dropdown-menu {
+  padding: 0;
+}
+.navbar-expand-lg .navbar-collapse .dropdown .dropdown-menu a {
+  text-align: start;
+  line-height: 1.8;
+  padding: 7 20px;
+
+  color: #212529 !important;
+}
+.navbar-expand-lg .navbar-collapse .dropdown .dropdown-menu a:hover {
+  background: #097bed;
+  color: #fff !important;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li:hover a {
   color: #fff;
@@ -3899,9 +3917,6 @@ ul {
   background-color: #f2f2f2;
 }
 
-
-
-
 .chat-container {
   width: 100%;
   margin: 30px auto;
@@ -4016,8 +4031,7 @@ ul {
   font-style: normal; /* Font Awesome would be used here */
 }
 
-.slider-en-mobile
-.uncode_text_column{
+.slider-en-mobile .uncode_text_column {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -4025,10 +4039,18 @@ ul {
   z-index: 999;
   color: #fff;
   cursor: pointer;
-
-
 }
-.slider-en-mobile >.row-parent{
+.slider-en-mobile > .row-parent {
   padding: 0;
+}
 
+@media (max-width: 768px) {
+  .navbar-area .nav-container .logo a img {
+    max-width: 200px;
+  }
+  .menu.toggle-btn {
+    left: 60px;
+    top: 19px;
+    right: unset;
+  }
 }
